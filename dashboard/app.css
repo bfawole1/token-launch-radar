@@ -94,8 +94,8 @@ tr.top3 .rank-badge { background: var(--ink); color: var(--surface); border-colo
 .peer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: var(--s2); }
 .peer { border: 1px solid var(--border); border-radius: var(--radius-control); padding: var(--s2) var(--s3); display: flex; justify-content: space-between; gap: var(--s2); align-items: baseline; }
 .peer span { color: var(--muted); font-size: 13px; }
-.peer b { font-family: var(--font-num); font-size: 14px; }
-.peer small { color: var(--muted); font-size: 11px; font-family: var(--font-num); }
+.peer b { font-family: var(--font-num); font-size: 14px; white-space: nowrap; }
+.peer small { color: var(--muted); font-size: 11px; font-family: var(--font-num); white-space: nowrap; }
 
 .empty { padding: var(--s7) var(--s5); text-align: center; display: grid; gap: var(--s3); justify-items: center; }
 .empty p { color: var(--muted); }
